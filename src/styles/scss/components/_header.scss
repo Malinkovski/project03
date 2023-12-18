@@ -1,0 +1,108 @@
+@use "../abstracts/mixins" as mix;
+@use "../abstracts/variables" as var;
+@use "sass:math";
+
+.header {
+  position: relative;
+  z-index: 10;
+  padding: 16px 25px 7px;
+  @include mix.laptop-m-styles-up {
+    padding: 16px 72px 7px;
+  }
+  @media (min-width: 769px) and (max-width: 1160px) {
+    padding: 16px 7px 7px;
+  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 70px;
+  background: var.$background-color-base;
+  .burger-menu {
+    height: 100px;
+    width: 100px;
+  }
+  .main-logo {
+    max-width: 50%;
+    img {
+      max-height: 50px;
+    }
+  }
+  .burger,
+  .search {
+    cursor: pointer;
+  }
+}
+.ribbon {
+  width: 100%;
+  margin-top: 70px;
+  border-top: 1px solid var.$background-color-quaternary;
+  border-bottom: 1px solid var.$background-color-quaternary;
+  background-color: var.$light-ribbon-pink;
+  overflow: hidden;
+  .ribbon-content {
+    h4 {
+      margin: 0;
+    }
+    li {
+      flex: 0 0 auto;
+      .olive-text {
+        color: var.$pinc-green;
+      }
+    }
+    padding: 2px 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: var.$font-size-heading;
+  }
+  white-space: nowrap;
+}
+
+.burger-ph {
+  display: none;
+}
+
+@include mix.laptop-m-styles-up {
+  header {
+    height: 140px;
+    .burger {
+      display: none;
+    }
+    .burger-ph {
+      display: block;
+      width: 50px;
+    }
+  }
+  .ribbon {
+    margin-top: 140px !important;
+  }
+}
+
+.animated-ribbon-inner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.animated-ribbon {
+  .animated-ribbon-inner {
+    width: max-content;
+    flex-wrap: nowrap;
+    animation: scroll 35s forwards linear infinite;
+  }
+  .svg-banner-star {
+    margin-top: 6px;
+  }
+}
+
+@keyframes scroll {
+  to {
+    transform: translate(calc(-50% - 12px));
+  }
+}

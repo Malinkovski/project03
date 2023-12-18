@@ -1,0 +1,106 @@
+@use "./variables" as var;
+@use "sass:math";
+
+// RESPONSIVE MOBILE FIRST MIXINS
+@mixin four-k-styles-up {
+  @media (max-width: 2560px) {
+    @content;
+  }
+}
+
+@mixin laptop-l-styles-up {
+  @media (min-width: 1440px) {
+    @content;
+  }
+}
+
+@mixin laptop-xm-styles-down {
+  @media (max-width: 1224px) {
+    @content;
+  }
+}
+@mixin laptop-m-styles-up {
+  @media (min-width: 1024px) {
+    @content;
+  }
+}
+//MOBILE MIXINS DOWN
+
+@mixin tablet-styles-up {
+  @media (min-width: 768px) {
+    @content;
+  }
+  
+}
+@mixin tablet-styles-down {
+  @media (max-width: 768px) {
+    @content;
+  }
+  
+}
+@mixin mobile-l-styles {
+  @media (max-width: 425px) {
+    @content;
+  }
+}
+@mixin mobile-l-styles-up {
+  @media (min-width: 425px) {
+    @content;
+  }
+}
+
+
+@mixin mobile-m-styles {
+  @media (max-width: 375px) {
+    @content;
+  }
+}
+
+@mixin mobile-s-styles {
+  @media (max-width: 320px) {
+    @content;
+  }
+}
+
+@mixin laptop-font-size($size) {
+  @media (min-width: 1024px) {
+    font-size: #{$size + 3px}!important;
+  }
+}
+
+@mixin borderBottomGradient {
+  &:after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: var.$gold-gradient;
+  }
+}
+
+@mixin borderTopGradient {
+  &:before {
+    content: "";
+    position: absolute;
+    height: 1px;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: var.$gold-gradient;
+  }
+}
+
+
+%wrap {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include tablet-styles-down {
+    width: 100%;
+    padding-left: math.div(var.$gutter-base, 2);
+    padding-right: math.div(var.$gutter-base, 2);
+  }
+}

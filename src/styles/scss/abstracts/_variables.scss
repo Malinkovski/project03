@@ -1,0 +1,81 @@
+@use "sass:math";
+
+@function rem-calc($size) {
+  @return (math.div($size, 16)) * 1rem;
+}
+
+// Font settings
+$font-family-base:              "Cormorant Garamond", sans-serif;
+$font-family-cormorant:         "Cormorant Infant", serif;
+$font-family-century:           "Century";
+$font-family-inter:             "Inter", sans-serif;
+$font-size-smallest:            8px;
+$font-size-small:               12px;
+$font-size-base:                16px;
+$font-size-input-base:          18px;
+$font-size-heading-small:       20px;
+$font-size-heading-ribbon:      21px;
+$font-size-heading:             22px;
+$font-size-heading-big:         32px;
+$font-size-button-small:        15px;
+$font-size-button-big:          25px;
+$line-height-base:              1.5;
+$letter-spacing-base:           -0.22px;
+
+
+$font-weight-normal:            400;
+$font-weight-medium:            500;
+$font-weight-bold:              500;
+
+// Size settings
+$gutter-base:                   rem-calc(30);
+
+// Color settings
+$text-color-base:             #000000;
+$text-color-primary:          #0f0f0f;
+$text-color-secondary:        #666560;
+$text-color-teriary:          #FF5B29;
+$text-color-quartery:         #ffffff;
+
+$background-color-base:       #fff;
+$background-color-primary:    #fdfdfd;
+$background-color-secondary:  #000;
+$background-color-teriary:    #fff;
+$background-color-quaternary: #232221;
+
+// Color misc:
+$light-ribbon-pink:           #fff6f6;
+$dark-ribbon-pink:            #FFDBDB;
+$pinc-green:                  #504e21;
+$fancy-olive:                 #8a8328;
+$border-color-primary:        #c2c2c2;
+$border-color-secondary:      #747474;
+$shadowbox-color-primary:     #c2c2c2;
+$gold-gradient: linear-gradient(
+                              99deg,
+                              #fff0bf -10.68%,
+                              #efc990 18.14%,
+                              #fdd292 43.87%,
+                              rgba(240, 199, 73, 0.42) 81.17%,
+                              #d4af37 100%
+                            );
+$pink-gradient: linear-gradient(
+                              180deg,
+                              #ffdbdb 0.05%,
+                              #fdfdfd 93.1%,
+                              #fdfdfd 110.6%,
+                              #8a8328 152.03%
+                            );
+$pink-gradient-reverse: linear-gradient(
+                              360deg,
+                              #ffdbdb 0.05%,
+                              #fdfdfd 110.6%,
+                              #fdfdfd 93.1%,
+                              #8a8328 152.03%
+                            );
+$pink-gradient-light: linear-gradient(
+                              180deg,
+                              #fdfdfd -52.68%,
+                              #fdfdfd 68.98%,
+                              #ffdbdb 91.87%
+                            );

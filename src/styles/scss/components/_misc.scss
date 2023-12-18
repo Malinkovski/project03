@@ -1,0 +1,107 @@
+@use "../abstracts/mixins" as mix;
+@use "../abstracts/variables" as var;
+@use "sass:math";
+
+.list-products {
+  margin: -10px;
+  .products {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    .card {
+      position: relative;
+      font-size: var.$font-size-base !important;
+      @include mix.mobile-l-styles-up {
+        font-size: var.$font-size-heading !important;
+      }
+      .inner-card {
+        margin: 10px;
+      }
+      width: 50%;
+      img {
+        object-fit: cover;
+      }
+      @include mix.tablet-styles-up {
+        width: 25%;
+        img {
+          height: 35vw !important;
+        }
+      }
+      @include mix.laptop-m-styles-up {
+        width: 25%;
+        img {
+          height: 30vw;
+        }
+      }
+      .img-container {
+        position: relative;
+        img {
+          height: 60vw;
+        }
+      }
+    }
+  }
+}
+
+.breadcrumbs {
+  a {
+    text-decoration: none !important;
+    //text-transform: capitalize;
+    font-size: var.$font-size-base;
+    display: inline-block;
+    &:first-letter {
+      text-transform: uppercase !important;
+    }
+  }
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  .breadcrumb:not(:last-child) {
+    margin-right: 15px;
+  }
+  .breadcrumb {
+    position: relative;
+  }
+  .breadcrumb:not(:last-child):before {
+    content: "";
+    display: inline-block;
+    border: solid 2px var.$border-color-primary;
+    border-radius: 1.5px;
+    border-width: 2px 2px 0 0;
+    height: 5px;
+    right: -10px;
+    position: absolute;
+    top: 10px;
+    transform: rotate(45deg);
+    vertical-align: top;
+    width: 5px;
+  }
+}
+
+.carousel-images {
+  .slick-slider {
+    .slide-arrow {
+      position: absolute;
+      top: 45%;
+      transform: translateY(-50%);
+      cursor: pointer;
+      z-index: 1;
+    }
+
+    .slide-left {
+      left: -5px;
+    }
+    .slide-right {
+      right: -15px;
+    }
+  }
+  svg{
+    height: 30px !important;
+    width: 30px !important;
+    transition: 0.2s ease;
+  }
+}
+
+.svg-banner-star{
+  margin-top: 6px;
+}

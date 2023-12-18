@@ -1,0 +1,61 @@
+@use "../abstracts/variables" as var;
+@use "../abstracts/mixins" as mix;
+@use "sass:math";
+
+.formic-purchase-form{
+    div:not(:last-child){
+        margin-bottom: 20px;
+    }
+    input{
+        height: 35px;
+        border-radius: 5px;
+        text-align: left;
+        padding: 0px 10px;
+        font-size: var.$font-size-base;
+        display: flex;
+        margin-top: 5px;
+        width: 100%;
+        border: 1px solid var.$border-color-primary;
+        font-family: var.$font-family-base;
+        background-color: var.$light-ribbon-pink;
+    }
+    .checkbox-form{
+        margin-top: 10px;
+        display: flex;
+        align-items:flex-start;
+        input{
+            max-height: 18px ;
+            max-width: 18px ;
+            margin-right: 10px;
+        }
+    }
+    label{
+        font-family: var.$font-family-base;
+        font-size: var.$font-size-base;
+        span{
+            color: var.$text-color-teriary;
+        }
+    }
+    .error-message{
+        position: absolute;
+        color: var.$text-color-teriary;
+        font-size: var.$font-size-small;
+    }
+    .form-buttons{
+        display: flex;
+        align-items: center;
+        .button-gold{
+            max-width: 200px;
+        }
+        .cancel-button{
+            margin-left: 20px;
+            border: none;
+            cursor: pointer;
+        }
+    }
+}
+.error-input{
+    outline: 1px solid var.$text-color-teriary;
+    background-color: var.$dark-ribbon-pink;
+}
+

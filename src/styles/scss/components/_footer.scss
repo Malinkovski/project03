@@ -1,0 +1,108 @@
+@use "../abstracts/mixins" as mix;
+@use "../abstracts/variables" as var;
+@use "sass:math";
+
+footer {
+  background: var.$pink-gradient-light;
+  .container {
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    .upper-footer {
+      .form{
+        position: relative;
+      }
+      @include mix.tablet-styles-up {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .footer-form {
+          display: flex;
+          align-items: flex-end;
+          margin-left: 30px;
+          width: 100%;
+          .footer-upper-text {
+            h3 {
+              font-size: var.$font-size-heading-big;
+            }
+          }
+          form{
+            width: 100%  !important;
+          }
+          .form{
+            width: 70% !important;
+          }
+          .button-gold {
+            margin-left: 15px;
+            margin-top: 23px;
+            width: 40%;
+          }
+
+        }
+      }
+    }
+    p {
+      margin-bottom: 20px;
+      color: var.$text-color-secondary;
+      font-size: var.$font-size-heading-small;
+    }
+    nav {
+      display: flex;
+      flex-direction: column;
+      @include mix.tablet-styles-up {
+        gap: 30px;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+    }
+    h5 {
+      font-style: italic;
+      color: var.$fancy-olive;
+    }
+    .bottom-footer {
+      @include mix.tablet-styles-up {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      .footer-nav {
+        margin-bottom: 30px;
+      }
+      .social-media {
+        h5 {
+          margin-bottom: 10px;
+        }
+        li {
+          a {
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 10px;
+            gap: 10px;
+          }
+        }
+      }
+    }
+    .copyright {
+      font-size: var.$font-family-base;
+      text-align: left;
+      @include mix.tablet-styles-up {
+        text-align: center;
+        width: 100%;
+      }
+      margin-bottom: 6px;
+    }
+  }
+  .social-icon {
+    height: 30px;
+    width: 30px;
+  }
+  .error-message {
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    font-size: var.$font-size-small;
+    color: var.$text-color-teriary;
+  }
+}
+
+

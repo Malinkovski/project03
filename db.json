@@ -1,0 +1,1799 @@
+{
+  "filters": {
+    "prices": [
+      {
+        "name": "сите",
+        "value": "0"
+      },
+      {
+        "name": "500-1000 ден.",
+        "value": "500-1000"
+      },
+      {
+        "name": "1000-2000 ден.",
+        "value": "1000-2000"
+      },
+      {
+        "name": "2000-5000 ден.",
+        "value": "2000-5000"
+      },
+      {
+        "name": "5000+ ден.",
+        "value": "5000+"
+      }
+    ],
+    "colors": [
+      {
+        "name": "црвена",
+        "value": "crvena",
+        "color_value": "#FF835E"
+      },
+      {
+        "name": "портокалова",
+        "value": "portokalova",
+        "color_value": "#FBC26C"
+      },
+      {
+        "name": "жолта",
+        "value": "zolta",
+        "color_value": "#FCFF81"
+      },
+      {
+        "name": "зелена",
+        "value": "zelena",
+        "color_value": "#B9E5A4"
+      },
+      {
+        "name": "сина",
+        "value": "sina",
+        "color_value": "#75D7F0"
+      },
+      {
+        "name": "лилава",
+        "value": "lilava",
+        "color_value": "#EA97FF"
+      },
+      {
+        "name": "розова",
+        "value": "rozova",
+        "color_value": "#FFDBDB"
+      },
+      {
+        "name": "црна",
+        "value": "crna",
+        "color_value": "#232221"
+      },
+      {
+        "name": "сива",
+        "value": "siva",
+        "color_value": "#D9D9D9"
+      },
+      {
+        "name": "бела",
+        "value": "bela",
+        "color_value": "#FFFFFF"
+      }
+    ],
+    "sizes": [
+      {
+        "name": "XS",
+        "value": "XS"
+      },
+      {
+        "name": "S",
+        "value": "S"
+      },
+      {
+        "name": "M",
+        "value": "M"
+      },
+      {
+        "name": "L",
+        "value": "L"
+      },
+      {
+        "name": "XL",
+        "value": "XL"
+      }
+    ],
+    "vintage": [
+      {
+        "name": "Блузи",
+        "value": "bluzi"
+      },
+      {
+        "name": "Панталони",
+        "value": "pantaloni"
+      },
+      {
+        "name": "Здолнина / шорцеви",
+        "value": "zdolnina"
+      },
+      {
+        "name": "Фустани",
+        "value": "fustani"
+      },
+      {
+        "name": "Палта и јакни",
+        "value": "palta-i-jakni"
+      },
+      {
+        "name": "Долна облека",
+        "value": "dolna-obleka"
+      }
+    ],
+    "accessories": [
+      {
+        "name": "Ташни",
+        "value": "tashni"
+      },
+      {
+        "name": "Накит",
+        "value": "nakit"
+      }
+    ],
+    "brands": [
+      {
+        "name": "Pinc Partywear",
+        "value": "Pinc Partywear"
+      },
+      {
+        "name": "Factory Girl",
+        "value": "Factory Girl"
+      },
+      {
+        "name": "Main Days",
+        "value": "Main Days"
+      },
+      {
+        "name": "Нежно",
+        "value": "Нежно"
+      },
+      {
+        "name": "Ред",
+        "value": "Ред"
+      },
+      {
+        "name": "Наш",
+        "value": "Наш"
+      },
+      {
+        "name": "Зш да не",
+        "value": "Зш да не"
+      },
+      {
+        "name": "Fraeil",
+        "value": "Fraeil"
+      },
+      {
+        "name": "URMA",
+        "value": "URMA"
+      },
+      {
+        "name": "Candle Nest",
+        "value": "Candle Nest"
+      },
+      {
+        "name": "Beyond Green",
+        "value": "Beyond Green"
+      },
+      {
+        "name": "Gatta",
+        "value": "Gatta"
+      }
+    ]
+  },
+
+  "ads": {
+    "advertisement_1": "Нова Колекција",
+    "advertisement_2": "Valentines Winter Collection 2023",
+    "home_ads": [
+      {
+        "id": "advertisement_1",
+        "title": "Valentines gal Koлекциja",
+        "image": "/images/img-home-1.jpg",
+        "text": "Погледни ги свежите љубовни парчиња",
+        "ad_tag": "valentines"
+      },
+      {
+        "id": "advertisement_2",
+        "title": "Козметика & аксесоари",
+        "image": "/images/img-home-2.jpg",
+        "text": "Погледни ги свежите љубовни парчиња",
+        "ad_tag": "valentines"
+      }
+    ]
+  },
+  "giftcard_page": {
+    "giftcard_page_title": "Gift картички за подарок",
+    "special_gift_cards": [
+      {
+        "id": "1",
+        "price": 6000,
+        "title": "Partygirl",
+        "image": "/images/giftcards/giftcard-1.jpg"
+      },
+      {
+        "id": "2",
+        "price": 5000,
+        "title": "Vintage chick",
+        "image": "/images/giftcards/giftcard-2.jpg"
+      },
+      {
+        "id": "3",
+        "price": 8000,
+        "title": "Wavy baby",
+        "image": "/images/giftcards/giftcard-3.jpg"
+      }
+    ],
+    "gift_cards": [
+      {
+        "id": "1",
+        "price": 500,
+        "title": "500-den-giftcard"
+      },
+      {
+        "id": "2",
+        "price": 1000,
+        "title": "1000-den-giftcard"
+      },
+      {
+        "id": "3",
+        "price": 2000,
+        "title": "2000-den-giftcard"
+      },
+      {
+        "id": "4",
+        "price": 2500,
+        "title": "2500-den-giftcard"
+      },
+      {
+        "id": "5",
+        "price": 4000,
+        "title": "4000-den-giftcard"
+      }
+    ]
+  },
+  "faq": {
+    "faq_title": "FAQ",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Ова е примерок за прашања кои би биле на страната? ",
+        "answer": "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+      },
+      {
+        "id": 2,
+        "question": "Ова е примерок за прашања кои би биле на страната? ",
+        "answer": "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+      },
+      {
+        "id": 3,
+        "question": "Ова е примерок за прашања кои би биле на страната? ",
+        "answer": "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+      },
+      {
+        "id": 4,
+        "question": "Ова е примерок за прашања кои би биле на страната? ",
+        "answer": "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+      }
+    ]
+  },
+  "about_page": {
+    "about_title": "За нас",
+    "first_title": "Кои сме ние?",
+    "second_title": "Нашата работа",
+    "first_content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "second_content": "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "third_content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis inventore pariatur quos a alias earum sequi sapiente quaerat aperiam quibusdam sed reiciendis quasi, amet corrupti possimus laborum accusamus est quis ut, consequuntur, temporibus hic. Labore voluptate consequuntur voluptates doloribus sed?",
+    "forth_content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "first_image": "/images/about-1.jpg",
+    "second_image": "/images/about-2.jpg"
+  },
+  "contact_page": {
+    "contact_title": "Контакт",
+    "image": "/images/contact-1.jpg",
+    "title": "Игралиште Дебар Маало",
+    "text": "Откриј ги нашите останати модни парчиња и колекции кои ги немаме изложено на нашата страна!",
+    "second_content": "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "address": "Костурски Херои бр.6/14 Дебар Маало, Скопје",
+    "number": "+389 078 380 406",
+    "working_hours": {
+      "weekdays": "Понеделник - Петок 12:00 - 19:00",
+      "weekends": "Сабота 12:00 - 17:00"
+    }
+  },
+  "vintage": [
+    {
+      "name": "Блузи",
+      "id": "bluzi"
+    },
+    {
+      "name": "Панталони",
+      "id": "pantaloni"
+    },
+    {
+      "name": "Здолнина / шорцеви",
+      "id": "zdolnina"
+    },
+    {
+      "name": "Фустани",
+      "id": "fustani"
+    },
+    {
+      "name": "Палта и јакни",
+      "id": "palta-i-jakni"
+    },
+    {
+      "name": "Долна облека",
+      "id": "dolna-obleka"
+    }
+  ],
+  "accessories": [
+    {
+      "name": "Ташни",
+      "id": "tashni"
+    },
+    {
+      "name": "Накит",
+      "id": "nakit"
+    }
+  ],
+  "local_brands": [
+    {
+      "id": "pinc-partywear",
+      "name": "Pinc Partywear",
+      "social": "https://www.instagram.com/zshdane_/",
+      "text": "Концептот на @zshdane_ се базира на неколку прашања: Дали постои простор за етикетирања и табу во овој безобразно неетички свет? Зошто фолирањето култура е поприфатено од искрениот отпор? Дали треба да се срамиме од сопственото само за друг да биде мирен? Дали ќе ни текне? Зачувај го слободниот дух и биди тоа што си с е к о г а ш . Погледнете ги производите на Зш да не кои ги нудиме во Игралиште. Имаме доста голем избор на Pussy привезоци кои се кул и ултра феминистички, а.к.а. grl pwr.",
+      "image": "/images/giftcards/giftcard-3.jpg"
+    },
+    {
+      "id": "factory-girl",
+      "name": "Factory Girl",
+      "social": "https://www.instagram.com/zshdane_/",
+      "text": "Концептот на @zshdane_ се базира на неколку прашања: Дали постои простор за етикетирања и табу во овој безобразно неетички свет? Зошто фолирањето култура е поприфатено од искрениот отпор? Дали треба да се срамиме од сопственото само за друг да биде мирен? Дали ќе ни текне? Зачувај го слободниот дух и биди тоа што си с е к о г а ш . Погледнете ги производите на Зш да не кои ги нудиме во Игралиште. Имаме доста голем избор на Pussy привезоци кои се кул и ултра феминистички, а.к.а. grl pwr.",
+      "image": "/images/about-1.jpg"
+    },
+    {
+      "id": "main-days",
+      "name": "Main Days",
+      "social": "https://www.instagram.com/zshdane_/",
+      "text": "Концептот на @zshdane_ се базира на неколку прашања: Дали постои простор за етикетирања и табу во овој безобразно неетички свет? Зошто фолирањето култура е поприфатено од искрениот отпор? Дали треба да се срамиме од сопственото само за друг да биде мирен? Дали ќе ни текне? Зачувај го слободниот дух и биди тоа што си с е к о г а ш . Погледнете ги производите на Зш да не кои ги нудиме во Игралиште. Имаме доста голем избор на Pussy привезоци кои се кул и ултра феминистички, а.к.а. grl pwr.",
+      "image": "/images/about-2.jpg"
+    },
+    {
+      "id": "nezno",
+      "name": "Нежно",
+      "social": "https://www.instagram.com/zshdane_/",
+      "text": "Концептот на @zshdane_ се базира на неколку прашања: Дали постои простор за етикетирања и табу во овој безобразно неетички свет? Зошто фолирањето култура е поприфатено од искрениот отпор? Дали треба да се срамиме од сопственото само за друг да биде мирен? Дали ќе ни текне? Зачувај го слободниот дух и биди тоа што си с е к о г а ш . Погледнете ги производите на Зш да не кои ги нудиме во Игралиште. Имаме доста голем избор на Pussy привезоци кои се кул и ултра феминистички, а.к.а. grl pwr.",
+      "image": "/images/img-home-1.jpg"
+    },
+    {
+      "id": "red",
+      "name": "Ред",
+      "social": "https://www.instagram.com/zshdane_/",
+      "text": "Концептот на @zshdane_ се базира на неколку прашања: Дали постои простор за етикетирања и табу во овој безобразно неетички свет? Зошто фолирањето култура е поприфатено од искрениот отпор? Дали треба да се срамиме од сопственото само за друг да биде мирен? Дали ќе ни текне? Зачувај го слободниот дух и биди тоа што си с е к о г а ш . Погледнете ги производите на Зш да не кои ги нудиме во Игралиште. Имаме доста голем избор на Pussy привезоци кои се кул и ултра феминистички, а.к.а. grl pwr.",
+      "image": "/images/contact-1.jpg"
+    },
+    {
+      "id": "nash",
+      "name": "Наш",
+      "social": "https://www.instagram.com/zshdane_/",
+      "text": "Концептот на @zshdane_ се базира на неколку прашања: Дали постои простор за етикетирања и табу во овој безобразно неетички свет? Зошто фолирањето култура е поприфатено од искрениот отпор? Дали треба да се срамиме од сопственото само за друг да биде мирен? Дали ќе ни текне? Зачувај го слободниот дух и биди тоа што си с е к о г а ш . Погледнете ги производите на Зш да не кои ги нудиме во Игралиште. Имаме доста голем избор на Pussy привезоци кои се кул и ултра феминистички, а.к.а. grl pwr.",
+      "image": "/images/giftcards/giftcard-3.jpg"
+    },
+    {
+      "id": "zs-da-ne",
+      "name": "Зш да не",
+      "social": "https://www.instagram.com/zshdane_/",
+      "text": "Концептот на @zshdane_ се базира на неколку прашања: Дали постои простор за етикетирања и табу во овој безобразно неетички свет? Зошто фолирањето култура е поприфатено од искрениот отпор? Дали треба да се срамиме од сопственото само за друг да биде мирен? Дали ќе ни текне? Зачувај го слободниот дух и биди тоа што си с е к о г а ш . Погледнете ги производите на Зш да не кои ги нудиме во Игралиште. Имаме доста голем избор на Pussy привезоци кои се кул и ултра феминистички, а.к.а. grl pwr.",
+      "image": "/images/brands/zsh-da-ne.jpg"
+    },
+    {
+      "id": "fraeil",
+      "name": "Fraeil",
+      "social": "https://www.instagram.com/zshdane_/",
+      "text": "Концептот на @zshdane_ се базира на неколку прашања: Дали постои простор за етикетирања и табу во овој безобразно неетички свет? Зошто фолирањето култура е поприфатено од искрениот отпор? Дали треба да се срамиме од сопственото само за друг да биде мирен? Дали ќе ни текне? Зачувај го слободниот дух и биди тоа што си с е к о г а ш . Погледнете ги производите на Зш да не кои ги нудиме во Игралиште. Имаме доста голем избор на Pussy привезоци кои се кул и ултра феминистички, а.к.а. grl pwr.",
+      "image": "/images/about-2.jpg"
+    },
+    {
+      "id": "urma",
+      "name": "URMA",
+      "social": "https://www.instagram.com/zshdane_/",
+      "text": "Концептот на @zshdane_ се базира на неколку прашања: Дали постои простор за етикетирања и табу во овој безобразно неетички свет? Зошто фолирањето култура е поприфатено од искрениот отпор? Дали треба да се срамиме од сопственото само за друг да биде мирен? Дали ќе ни текне? Зачувај го слободниот дух и биди тоа што си с е к о г а ш . Погледнете ги производите на Зш да не кои ги нудиме во Игралиште. Имаме доста голем избор на Pussy привезоци кои се кул и ултра феминистички, а.к.а. grl pwr.",
+      "image": "/images/giftcards/giftcard-1.jpg"
+    },
+    {
+      "id": "candle-nest",
+      "name": "Candle nest",
+      "social": "https://www.instagram.com/zshdane_/",
+      "text": "Концептот на @zshdane_ се базира на неколку прашања: Дали постои простор за етикетирања и табу во овој безобразно неетички свет? Зошто фолирањето култура е поприфатено од искрениот отпор? Дали треба да се срамиме од сопственото само за друг да биде мирен? Дали ќе ни текне? Зачувај го слободниот дух и биди тоа што си с е к о г а ш . Погледнете ги производите на Зш да не кои ги нудиме во Игралиште. Имаме доста голем избор на Pussy привезоци кои се кул и ултра феминистички, а.к.а. grl pwr.",
+      "image": "/images/img-home-1.jpg"
+    },
+    {
+      "id": "beyond-green",
+      "name": "Beyond green",
+      "social": "https://www.instagram.com/zshdane_/",
+      "text": "Концептот на @zshdane_ се базира на неколку прашања: Дали постои простор за етикетирања и табу во овој безобразно неетички свет? Зошто фолирањето култура е поприфатено од искрениот отпор? Дали треба да се срамиме од сопственото само за друг да биде мирен? Дали ќе ни текне? Зачувај го слободниот дух и биди тоа што си с е к о г а ш . Погледнете ги производите на Зш да не кои ги нудиме во Игралиште. Имаме доста голем избор на Pussy привезоци кои се кул и ултра феминистички, а.к.а. grl pwr.",
+      "image": "/images/img-home-2.jpg"
+    },
+    {
+      "id": "gatta",
+      "name": "Gatta",
+      "social": "https://www.instagram.com/zshdane_/",
+      "text": "Концептот на @zshdane_ се базира на неколку прашања: Дали постои простор за етикетирања и табу во овој безобразно неетички свет? Зошто фолирањето култура е поприфатено од искрениот отпор? Дали треба да се срамиме од сопственото само за друг да биде мирен? Дали ќе ни текне? Зачувај го слободниот дух и биди тоа што си с е к о г а ш . Погледнете ги производите на Зш да не кои ги нудиме во Игралиште. Имаме доста голем избор на Pussy привезоци кои се кул и ултра феминистички, а.к.а. grl pwr.",
+      "image": "/images/giftcards/giftcard-3.jpg"
+    }
+  ],
+
+  "products": [
+    {
+      "id": "6c39f48f-987b-4dcc-8fe4-3477423d269",
+      "name": "Puffer кратка јакна",
+      "type": "vintage облека",
+      "category": "палта и јакни",
+      "type_id": "vintage",
+      "category_id": "palta-i-jakni",
+      "price": 5000,
+      "size": "S",
+      "color": "бела",
+      "color_value": "#000000",
+      "material": "100% Полиестер",
+      "condition": 10,
+      "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+      "size_description": "Совет за величина: ова парче е направено од материјал кој не се растегнува. Одговара на наведената величина.",
+      "care_description": "Ова парче треба да се третира хемиски според инструкциите на етикетата.",
+      "tags": ["test", "облека", "vintage", "ново", "палта", "factory girl"],
+      "date": 1660147200000,
+      "quantity": 1,
+      "images": [
+        "/images/products/clothes/jacket-white-6.jpg",
+        "/images/products/clothes/jacket-white-2.jpg",
+        "/images/products/clothes/jacket-white-4.jpg",
+        "/images/products/clothes/jacket-white-1.jpg",
+        "/images/products/clothes/jacket-white-5.jpg",
+        "/images/products/clothes/jacket-white-3.jpg"
+      ],
+
+      "discount": 0,
+      "trending": false
+    },
+    {
+      "id": "6c39f48f-9875hr5hs5-34751241347423d269",
+      "name": "Краток Фустан",
+      "type": "vintage облека",
+      "category": "фустани",
+      "type_id": "vintage",
+      "category_id": "fustani",
+      "price": 3500,
+      "size": "S",
+      "color": "црна",
+      "color_value": "#232221",
+      "material": "100% Panuk",
+      "condition": 9,
+      "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+      "size_description": "Совет за величина: ова парче е направено од материјал кој не се растегнува. Одговара на наведената величина.",
+      "care_description": "Ова парче треба да се третира хемиски според инструкциите на етикетата.",
+      "tags": [
+        "test",
+        "облека",
+        "Pinc Partywear",
+        "vintage",
+        "ново",
+        "Main Days",
+        "палта",
+        "factory girl"
+      ],
+      "date": 1660157201200,
+      "quantity": 2,
+      "images": [
+        "/images/products/clothes/skirt-black-1.jpg",
+        "/images/products/clothes/skirt-black-2.jpg",
+        "/images/products/clothes/skirt-black-3.jpg",
+        "/images/products/clothes/skirt-black-2.jpg",
+        "/images/products/clothes/skirt-black-1.jpg",
+        "/images/products/clothes/skirt-black-3.jpg"
+      ],
+      "sale": false,
+      "discount": 0,
+      "trending": false
+    },
+    {
+      "id": "aewfwefedfdsafcvawesfe4wfwfe4",
+      "name": "Розе Маичка",
+      "type": "Нежно",
+      "category": "Блузи",
+      "type_id": "vintage",
+      "category_id": "bluzi",
+      "price": 3900,
+      "size": "XS",
+      "color": "розова",
+      "color_value": "#FFDBDB",
+      "material": "100% Синтетика",
+      "condition": 7,
+      "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+      "size_description": "Совет за величина: ова парче е направено од материјал кој не се растегнува. Одговара на наведената величина.",
+      "care_description": "Ова парче треба да се третира хемиски според инструкциите на етикетата.",
+      "tags": [
+        "vintage",
+        "фyстани",
+        "Нежно",
+        "ново",
+        "розава",
+        "Ред"
+      ],
+      "date": 1665053142210,
+      "quantity": 2,
+      "images": [
+        "/images/products/clothes/rose-shirt-3.jpg",
+        "/images/products/clothes/rose-shirt-2.jpg",
+        "/images/products/clothes/rose-shirt-1.jpg",
+        "/images/products/clothes/rose-shirt-4.jpg",
+        "/images/products/clothes/rose-shirt-2.jpg",
+        "/images/products/clothes/rose-shirt-1.jpg"
+      ],
+      "sale": false,
+      "discount": 0,
+      "trending": false
+    },
+    {
+      "id": "6c3faeca3asdas4ghs5rhsn198kdfafa9",
+      "name": "Долги Блуза",
+      "type": "vintage облека",
+      "category": "Блузи",
+      "type_id": "vintage",
+      "category_id": "bluzi",
+      "price": 1800,
+      "size": "M",
+      "color": "црвена",
+      "color_value": "#FF835E",
+      "material": "100% Памук",
+      "condition": 8,
+      "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+      "size_description": "Совет за величина: ова парче е направено од материјал кој не се растегнува. Одговара на наведената величина.",
+      "care_description": "Ова парче треба да се третира хемиски според инструкциите на етикетата.",
+      "tags": [
+        "valentines",
+        "vintage",
+        "фyстани",
+        "Нежно",
+        "ново",
+        "Pinc Partywear",
+        "factory girl"
+      ],
+      "date": 1665053723470,
+      "quantity": 2,
+      "images": [
+        "/images/products/clothes/red-shirt-3.jpg",
+        "/images/products/clothes/red-shirt-2.jpg",
+        "/images/products/clothes/red-shirt-1.jpg",
+        "/images/products/clothes/red-shirt-4.jpg",
+        "/images/products/clothes/red-shirt-2.jpg"
+      ],
+      "sale": false,
+      "discount": 0,
+      "trending": false
+    },
+    {
+      "id": "aw4e3cwasecsecv4vwzsdvr69",
+      "name": "Pantalon со струк",
+      "type": "vintage облека",
+      "category": "Панталони",
+      "type_id": "vintage",
+      "category_id": "pantaloni",
+      "price": 3800,
+      "size": "L",
+      "color": "зелена",
+      "color_value": "#B9E5A4",
+      "material": "100% Пластика",
+      "condition": 8,
+      "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+      "size_description": "Совет за величина: ова парче е направено од материјал кој не се растегнува. Одговара на наведената величина.",
+      "care_description": "Ова парче треба да се третира хемиски според инструкциите на етикетата.",
+      "tags": ["vintage", "Ред", "панталони", "зелена", "Green"],
+      "date": 16601113400,
+      "quantity": 3,
+      "images": [
+        "/images/products/clothes/pants-green-4.jpg",
+        "/images/products/clothes/pants-green-3.jpg",
+        "/images/products/clothes/pants-green-2.jpg",
+        "/images/products/clothes/pants-green-1.jpg",
+        "/images/products/clothes/pants-green-5.jpg",
+        "/images/products/clothes/pants-green-6.jpg"
+      ],
+      "sale": false,
+      "discount": 0,
+      "trending": true
+    },
+    {
+      "id": "6њаa4sdgvseaw3fafweasgrws4rvРГgeд9",
+      "name": "Бела ташна со каишка",
+      "type": "Аксесоари",
+      "category": "Ташни",
+      "type_id": "tashni",
+      "category_id": "tashni",
+      "price": 3625,
+      "size": "M",
+      "color": "бела",
+      "color_value": "#FFFFFF",
+      "material": "95% Кожа, 5% Полиестер",
+      "condition": 10,
+      "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+      "size_description": "Совет за величина: ова парче е направено од материјал кој не се растегнува. Одговара на наведената величина.",
+      "care_description": "Ова парче треба да се третира хемиски според инструкциите на етикетата.",
+      "tags": ["Ташна", "Main Days", "ново", "Pinc Partywear", "бело", "purse"],
+      "date": 1312223350,
+      "quantity": 4,
+      "images": [
+        "/images/products/accessories/purse-white-2.jpg",
+        "/images/products/accessories/purse-white-1.jpg",
+        "/images/products/accessories/purse-white-3.jpg",
+        "/images/products/accessories/purse-white-4.jpg"
+      ],
+      "sale": false,
+      "discount": 0,
+      "trending": false
+    },
+    {
+      "id": "6cсдa3fasfhsr5hsre5be5bsgfgh9",
+      "name": "Сребрени менѓиши",
+      "type": "Аксесоари",
+      "category": "Накит",
+      "type_id": "accessories",
+      "category_id": "nakit",
+      "price": 5500,
+      "size": "",
+      "color": "црвена",
+      "color_value": "#FF835E",
+      "material": "22% Злато",
+      "condition": 5,
+      "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+      "size_description": "Совет за величина: ова парче е направено од материјал кој не се растегнува. Одговара на наведената величина.",
+      "care_description": "Ова парче треба да се третира хемиски според инструкциите на етикетата.",
+      "tags": [
+        "valentines",
+        "накит",
+        "earrings",
+        "фyстани",
+        "Нежно",
+        "factory girl",
+        "Pinc Partywear"
+      ],
+      "date": 1624012327350,
+      "quantity": 2,
+      "images": [
+        "/images/products/accessories/earrings-god-2.jpg",
+        "/images/products/accessories/earrings-god-1.jpg",
+        "/images/products/accessories/earrings-god-3.jpg"
+      ],
+      "sale": false,
+      "discount": 0,
+      "trending": false
+    },
+    {
+      "id": "6c39f48f-987b-4dhr5h5r7423d269",
+      "name": "Краток Фустан",
+      "type": "vintage облека",
+      "category": "фустани",
+      "type_id": "vintage",
+      "category_id": "fustani",
+      "price": 3500,
+      "size": "L",
+      "color": "",
+      "color_value": "#000000",
+      "material": "100% Panuk",
+      "condition": 9,
+      "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+      "size_description": "Совет за величина: ова парче е направено од материјал кој не се растегнува. Одговара на наведената величина.",
+      "care_description": "Ова парче треба да се третира хемиски според инструкциите на етикетата.",
+      "tags": [
+        "valentines",
+        "test",
+        "облека",
+        "Pinc Partywear",
+        "vintage",
+        "ново",
+        "Main Days",
+        "палта",
+        "factory girl"
+      ],
+      "date": 1660257205200,
+      "quantity": 5,
+      "images": [
+        "/images/products/clothes/skirt-black-3.jpg",
+        "/images/products/clothes/skirt-black-1.jpg",
+        "/images/products/clothes/skirt-black-2.jpg",
+        "/images/products/clothes/skirt-black-2.jpg",
+        "/images/products/clothes/skirt-black-1.jpg",
+        "/images/products/clothes/skirt-black-3.jpg"
+      ],
+      "sale": false,
+      "discount": 0,
+      "trending": false
+    },
+    {
+      "id": "6c39f48f-9zd4ghzd4hzdwe4269",
+      "name": "Kратка јакна",
+      "type": "vintage облека",
+      "category": "палта и јакни",
+      "type_id": "vintage",
+      "category_id": "palta-i-jakni",
+      "price": 1000,
+      "size": "L",
+      "color": "бела",
+      "color_value": "#000000",
+      "material": "100% Полиестер",
+      "condition": 7,
+      "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+      "size_description": "Совет за величина: ова парче е направено од материјал кој не се растегнува. Одговара на наведената величина.",
+      "care_description": "Ова парче треба да се третира хемиски според инструкциите на етикетата.",
+      "tags": ["облека", "vintage", "ново", "палта", "factory girl"],
+      "date": 1660147201000,
+      "quantity": 4,
+      "images": [
+        "/images/products/clothes/jacket-white-3.jpg",
+        "/images/products/clothes/jacket-white-6.jpg",
+        "/images/products/clothes/jacket-white-2.jpg",
+        "/images/products/clothes/jacket-white-4.jpg",
+        "/images/products/clothes/jacket-white-1.jpg",
+        "/images/products/clothes/jacket-white-5.jpg"
+      ],
+
+      "discount": 0,
+      "trending": true
+    },
+    {
+      "id": "6c39f48f4gzd4grzggrz69",
+      "name": "Долга јакна",
+      "type": "vintage облека",
+      "category": "палта и јакни",
+      "type_id": "vintage",
+      "category_id": "palta-i-jakni",
+      "price": 2000,
+      "size": "L",
+      "color": "бела",
+      "color_value": "#000000",
+      "material": "100% Полиестер",
+      "condition": 9,
+      "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+      "size_description": "Совет за величина: ова парче е направено од материјал кој не се растегнува. Одговара на наведената величина.",
+      "care_description": "Ова парче треба да се третира хемиски според инструкциите на етикетата.",
+      "tags": ["облека", "vintage", "ново", "палта", "factory girl"],
+      "date": 1660147201100,
+      "quantity": 8,
+      "images": [
+        "/images/products/clothes/jacket-white-6.jpg",
+        "/images/products/clothes/jacket-white-3.jpg",
+        "/images/products/clothes/jacket-white-2.jpg",
+        "/images/products/clothes/jacket-white-4.jpg",
+        "/images/products/clothes/jacket-white-1.jpg",
+        "/images/products/clothes/jacket-white-5.jpg"
+      ],
+      "sale": true,
+      "discount": 10,
+      "trending": true
+    },
+    {
+      "id": "6њаawfawvzdgzgzdzdgzsevgeд9",
+      "name": "Сребрено Ланец",
+      "type": "Аксесоари",
+      "category": "Накит",
+      "type_id": "accessories",
+      "category_id": "nakit",
+      "price": 3200,
+      "size": "",
+      "color": "бела",
+      "color_value": "#FFFFFF",
+      "material": "91% Злато",
+      "condition": 9,
+      "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+      "size_description": "Совет за величина: ова парче е направено од материјал кој не се растегнува. Одговара на наведената величина.",
+      "care_description": "Ова парче треба да се третира хемиски според инструкциите на етикетата.",
+      "tags": ["накит", "ланче", "Нежно", "factory girl", "Pinc Partywear"],
+      "date": 13240127350,
+      "quantity": 3,
+      "images": [
+        "/images/products/accessories/necklace-white-3.jpg",
+        "/images/products/accessories/necklace-white-2.jpg",
+        "/images/products/accessories/necklace-white-1.jpg"
+      ],
+      "sale": true,
+      "discount": 10,
+      "trending": false
+    },
+    {
+      "id": "aw4vwasfa3ecvesacvawc4veawsf",
+      "name": "Нави Панталонa",
+      "type": "Pinc Partywear",
+      "category": "Панталони",
+      "type_id": "vintage",
+      "category_id": "pantaloni",
+      "price": 4340,
+      "size": "L",
+      "color": "портокалова",
+      "color_value": "#FBC26C",
+      "material": "100% Памук",
+      "condition": 8,
+      "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+      "size_description": "Совет за величина: ова парче е направено од материјал кој не се растегнува. Одговара на наведената величина.",
+      "care_description": "Ова парче треба да се третира хемиски според инструкциите на етикетата.",
+      "tags": [
+        "vintage",
+        "панталони",
+        "orange",
+        "портокалова",
+        "URMA",
+        "Pinc Partywear"
+      ],
+      "date": 166121794400,
+      "quantity": 2,
+      "images": [
+        "/images/products/clothes/pants-orange-2.jpg",
+        "/images/products/clothes/pants-orange-1.jpg",
+        "/images/products/clothes/pants-orange-3.jpg"
+      ],
+      "sale": false,
+      "discount": 0,
+      "trending": false
+    },
+    {
+      "id": "6њаawfazed4rgbedsvs4evzse45sv4vzsevgeд9",
+      "name": "Плава еко Ташна",
+      "type": "Аксесоари",
+      "category": "Ташни",
+      "type_id": "tashni",
+      "category_id": "tashni",
+      "price": 505,
+      "size": "S",
+      "color": "сина",
+      "color_value": "#75D7F0",
+      "material": "91% памук",
+      "condition": 2,
+      "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+      "size_description": "Совет за величина: ова парче е направено од материјал кој не се растегнува. Одговара на наведената величина.",
+      "care_description": "Ова парче треба да се третира хемиски според инструкциите на етикетата.",
+      "tags": ["Ташна", "URMA", "Main Days", "плава", "Beyond Green"],
+      "date": 13240127350,
+      "quantity": 3,
+      "images": [
+        "/images/products/accessories/bag-blue-1.jpg",
+        "/images/products/accessories/bag-blue-2.jpg",
+        "/images/products/accessories/bag-blue-3.jpg"
+      ],
+      "sale": false,
+      "discount": 0,
+      "trending": true
+    },
+    {
+      "id": "6c35f48f-917b-4dcc-8fe4-3a25123269",
+      "name": "Bela Кратка јакна",
+      "type": "vintage облека",
+      "category": "палта и јакни",
+      "type_id": "vintage",
+      "category_id": "palta-i-jakni",
+      "price": 2000,
+      "size": "М",
+      "color": "розова",
+      "color_value": "#FFDBDB",
+      "material": "100% Синтетика",
+      "condition": 4,
+      "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+      "size_description": "Совет за величина: ова парче е направено од материјал кој не се растегнува. Одговара на наведената величина.",
+      "care_description": "Ова парче треба да се третира хемиски според инструкциите на етикетата.",
+      "tags": ["vintage", "палта", "Pinc Partywear"],
+      "date": 1660147215000,
+      "quantity": 3,
+      "images": [
+        "/images/products/clothes/jacket-white-1.jpg",
+        "/images/products/clothes/jacket-white-5.jpg",
+        "/images/products/clothes/jacket-white-4.jpg",
+        "/images/products/clothes/jacket-white-6.jpg",
+        "/images/products/clothes/jacket-white-2.jpg",
+        "/images/products/clothes/jacket-white-3.jpg"
+      ],
+
+      "discount": 0,
+      "trending": false
+    },
+    {
+      "id": "6њаa4асд2љф3њељфефРГgeд9",
+      "name": "Ташна Бела кожна",
+      "type": "Аксесоари",
+      "category": "Ташни",
+      "type_id": "tashni",
+      "category_id": "tashni",
+      "price": 4625,
+      "size": "XL",
+      "color": "бела",
+      "color_value": "#FFFFFF",
+      "material": "95% kожа, 5% Полиестер",
+      "condition": 9,
+      "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+      "size_description": "Совет за величина: ова парче е направено од материјал кој не се растегнува. Одговара на наведената величина.",
+      "care_description": "Ова парче треба да се третира хемиски според инструкциите на етикетата.",
+      "tags": ["Ташна", "Main Days", "бело", "purse"],
+      "date": 131202234350,
+      "quantity": 1,
+      "images": [
+        "/images/products/accessories/purse-white-3.jpg",
+        "/images/products/accessories/purse-white-2.jpg",
+        "/images/products/accessories/purse-white-1.jpg",
+        "/images/products/accessories/purse-white-4.jpg"
+      ],
+      "sale": true,
+      "discount": 20,
+      "trending": false
+    },
+    {
+      "id": "aw4egфвvase4rveasrvsxdr5tvbdv69",
+      "name": "Долги Панталони",
+      "type": "URMA",
+      "category": "Панталони",
+      "type_id": "vintage",
+      "category_id": "pantaloni",
+      "price": 4800,
+      "size": "S",
+      "color": "зелена",
+      "color_value": "#B9E5A4",
+      "material": "100% Памук",
+      "condition": 8,
+      "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+      "size_description": "Совет за величина: ова парче е направено од материјал кој не се растегнува. Одговара на наведената величина.",
+      "care_description": "Ова парче треба да се третира хемиски според инструкциите на етикетата.",
+      "tags": [
+        "vintage",
+        "панталони",
+        "зелена",
+        "Green",
+        "URMA",
+        "Pinc Partywear"
+      ],
+      "date": 166011243400,
+      "quantity": 3,
+      "images": [
+        "/images/products/clothes/pants-green-2.jpg",
+        "/images/products/clothes/pants-green-1.jpg",
+        "/images/products/clothes/pants-green-3.jpg",
+        "/images/products/clothes/pants-green-4.jpg",
+        "/images/products/clothes/pants-green-5.jpg",
+        "/images/products/clothes/pants-green-6.jpg"
+      ],
+      "sale": false,
+      "discount": 0,
+      "trending": false
+    },
+    {
+      "id": "6c39f48f-913123512r7423d269",
+      "name": "Црн Фактори Фустан",
+      "type": "vintage облека",
+      "category": "фустани",
+      "type_id": "vintage",
+      "category_id": "fustani",
+      "price": 3500,
+      "size": "L",
+      "color": "",
+      "color_value": "#000000",
+      "material": "100% Panuk",
+      "condition": 9,
+      "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+      "size_description": "Совет за величина: ова парче е направено од материјал кој не се растегнува. Одговара на наведената величина.",
+      "care_description": "Ова парче треба да се третира хемиски според инструкциите на етикетата.",
+      "tags": [
+        "valentines",
+        "облека",
+        "Pinc Partywear",
+        "vintage",
+        "ново",
+        "Main Days",
+        "палта",
+        "factory girl"
+        
+      ],
+      "date": 1560257205200,
+      "quantity": 5,
+      "images": [
+        "/images/products/clothes/skirt-black-3.jpg",
+        "/images/products/clothes/skirt-black-2.jpg",
+        "/images/products/clothes/skirt-black-1.jpg",
+        "/images/products/clothes/skirt-black-2.jpg",
+        "/images/products/clothes/skirt-black-1.jpg",
+        "/images/products/clothes/skirt-black-3.jpg"
+      ],
+      "sale": false,
+      "discount": 0,
+      "trending": false
+    },
+    {
+      "id": "асфсефsaergf4sedrasdasvsdravaes",
+      "name": "Долги Rakavi",
+      "type": "Нежно",
+      "category": "Блузи",
+      "type_id": "vintage",
+      "category_id": "bluzi",
+      "price": 2700,
+      "size": "XS",
+      "color": "розова",
+      "color_value": "#FFDBDB",
+      "material": "100% Синтетика",
+      "condition": 7,
+      "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+      "size_description": "Совет за величина: ова парче е направено од материјал кој не се растегнува. Одговара на наведената величина.",
+      "care_description": "Ова парче треба да се третира хемиски според инструкциите на етикетата.",
+      "tags": [
+        "valentines",
+        "vintage",
+        "фyстани",
+        "Нежно",
+        "ново",
+        "розава",
+        "Ред"
+      ],
+      "date": 1665053524210,
+      "quantity": 2,
+      "images": [
+        "/images/products/clothes/rose-shirt-2.jpg",
+        "/images/products/clothes/rose-shirt-1.jpg",
+        "/images/products/clothes/rose-shirt-3.jpg",
+        "/images/products/clothes/rose-shirt-4.jpg",
+        "/images/products/clothes/rose-shirt-2.jpg",
+        "/images/products/clothes/rose-shirt-1.jpg"
+      ],
+      "sale": true,
+      "discount": 30,
+      "trending": false
+    },
+    {
+      "id": "6cсдaaw4vawvgfgh9",
+      "name": "Zlatni менѓиши",
+      "type": "Аксесоари",
+      "category": "Накит",
+      "type_id": "accessories",
+      "category_id": "nakit",
+      "price": 3500,
+      "size": "",
+      "color": "црвена",
+      "color_value": "#FF835E",
+      "material": "99% Злато",
+      "condition": 10,
+      "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+      "size_description": "Совет за величина: ова парче е направено од материјал кој не се растегнува. Одговара на наведената величина.",
+      "care_description": "Ова парче треба да се третира хемиски според инструкциите на етикетата.",
+      "tags": [
+        "накит",
+        "earrings",
+        "фyстани",
+        "Нежно",
+        "factory girl",
+        "Pinc Partywear"
+      ],
+      "date": 1624012327350,
+      "quantity": 5,
+      "images": [
+        "/images/products/accessories/earrings-god-3.jpg",
+        "/images/products/accessories/earrings-god-2.jpg",
+        "/images/products/accessories/earrings-god-1.jpg"
+      ],
+      "sale": false,
+      "discount": 0,
+      "trending": false
+    },
+    {
+      "id": "6c3ања52рфа3фс4фњфњ4фљ2fgh9",
+      "name": "Долги Блуза",
+      "type": "vintage облека",
+      "category": "Блузи",
+      "type_id": "vintage",
+      "category_id": "bluzi",
+      "price": 4300,
+      "size": "M",
+      "color": "жолта",
+      "color_value": "#FCFF81",
+      "material": "100% Памук",
+      "condition": 9,
+      "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+      "size_description": "Совет за величина: ова парче е направено од материјал кој не се растегнува. Одговара на наведената величина.",
+      "care_description": "Ова парче треба да се третира хемиски според инструкциите на етикетата.",
+      "tags": ["vintage", "фyстани", "Нежно", "ново", "factory girl"],
+      "date": 16605313732370,
+      "quantity": 6,
+      "images": [
+        "/images/products/clothes/red-shirt-2.jpg",
+        "/images/products/clothes/red-shirt-1.jpg",
+        "/images/products/clothes/red-shirt-3.jpg",
+        "/images/products/clothes/red-shirt-4.jpg",
+        "/images/products/clothes/red-shirt-2.jpg"
+      ],
+      "sale": true,
+      "discount": 15,
+      "trending": false
+    },
+    {
+      "id": "6csgсфсргвсдвсе4вњасд9",
+      "name": "Златно Ланче",
+      "type": "Аксесоари",
+      "category": "Накит",
+      "type_id": "accessories",
+      "category_id": "nakit",
+      "price": 5200,
+      "size": "",
+      "color": "жолта",
+      "color_value": "#FCFF81",
+      "material": "91% Злато",
+      "condition": 9,
+      "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+      "size_description": "Совет за величина: ова парче е направено од материјал кој не се растегнува. Одговара на наведената величина.",
+      "care_description": "Ова парче треба да се третира хемиски според инструкциите на етикетата.",
+      "tags": [
+        "накит",
+        "earrings",
+        "фyстани",
+        "Нежно",
+        "factory girl",
+        "Pinc Partywear"
+      ],
+      "date": 16240127350,
+      "quantity": 2,
+      "images": [
+        "/images/products/accessories/necklace-white-1.jpg",
+        "/images/products/accessories/necklace-white-2.jpg",
+        "/images/products/accessories/necklace-white-3.jpg"
+      ],
+      "sale": false,
+      "discount": 0,
+      "trending": false
+    },
+    {
+      "id": "6њаawe4gvawegWS#F5edvbrdbvgeд9",
+      "name": "Green Day Ташна",
+      "type": "Аксесоари",
+      "category": "Ташни",
+      "type_id": "tashni",
+      "category_id": "tashni",
+      "price": 505,
+      "size": "L",
+      "color": "сина",
+      "color_value": "#75D7F0",
+      "material": "91% памук",
+      "condition": 3,
+      "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+      "size_description": "Совет за величина: ова парче е направено од материјал кој не се растегнува. Одговара на наведената величина.",
+      "care_description": "Ова парче треба да се третира хемиски според инструкциите на етикетата.",
+      "tags": ["Ташна", "URMA", "Main Days", "плава", "Beyond Green"],
+      "date": 13240127350,
+      "quantity": 3,
+      "images": [
+        "/images/products/accessories/bag-blue-2.jpg",
+        "/images/products/accessories/bag-blue-1.jpg",
+        "/images/products/accessories/bag-blue-3.jpg"
+      ],
+      "sale": false,
+      "discount": 0,
+      "trending": true
+    },
+    {
+      "id": "aw4e3SEvsfvcrsevesrvze4srdvr69",
+      "name": "Pantaloni Zeleni",
+      "type": "vintage облека",
+      "category": "Панталони",
+      "type_id": "vintage",
+      "category_id": "pantaloni",
+      "price": 1800,
+      "size": "L",
+      "color": "зелена",
+      "color_value": "#B9E5A4",
+      "material": "100% Пластика",
+      "condition": 8,
+      "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+      "size_description": "Совет за величина: ова парче е направено од материјал кој не се растегнува. Одговара на наведената величина.",
+      "care_description": "Ова парче треба да се третира хемиски според инструкциите на етикетата.",
+      "tags": ["vintage", "Ред", "панталони", "зелена", "Green"],
+      "date": 16601312400,
+      "quantity": 2,
+      "images": [
+        "/images/products/clothes/pants-green-5.jpg",
+        "/images/products/clothes/pants-green-4.jpg",
+        "/images/products/clothes/pants-green-3.jpg",
+        "/images/products/clothes/pants-green-2.jpg",
+        "/images/products/clothes/pants-green-1.jpg",
+        "/images/products/clothes/pants-green-6.jpg"
+      ],
+      "sale": false,
+      "discount": 0,
+      "trending": true
+    },
+    {
+      "id": "aw4egasdfvase4rvrfdS$Evdv69",
+      "name": "Зелени панталони",
+      "type": "URMA",
+      "category": "Панталони",
+      "type_id": "vintage",
+      "category_id": "pantaloni",
+      "price": 4500,
+      "size": "M",
+      "color": "зелена",
+      "color_value": "#B9E5A4",
+      "material": "100% Памук",
+      "condition": 9,
+      "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+      "size_description": "Совет за величина: ова парче е направено од материјал кој не се растегнува. Одговара на наведената величина.",
+      "care_description": "Ова парче треба да се третира хемиски според инструкциите на етикетата.",
+      "tags": [
+        "vintage",
+        "панталони",
+        "зелена",
+        "Green",
+        "URMA",
+        "Pinc Partywear"
+      ],
+      "date": 1660112445000,
+      "quantity": 3,
+      "images": [
+        "/images/products/clothes/pants-green-1.jpg",
+        "/images/products/clothes/pants-green-2.jpg",
+        "/images/products/clothes/pants-green-3.jpg",
+        "/images/products/clothes/pants-green-4.jpg",
+        "/images/products/clothes/pants-green-5.jpg",
+        "/images/products/clothes/pants-green-6.jpg"
+      ],
+      "sale": true,
+      "discount": 10,
+      "trending": true
+    },
+    {
+      "id": "фсефвцвzsdv4ervzsd4rvdrfvgdrsfvdr5",
+      "name": "Портокалови Панталони",
+      "type": "Pinc Partywear",
+      "category": "Панталони",
+      "type_id": "vintage",
+      "category_id": "pantaloni",
+      "price": 1340,
+      "size": "L",
+      "color": "портокалова",
+      "color_value": "#FBC26C",
+      "material": "100% Памук",
+      "condition": 8,
+      "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+      "size_description": "Совет за величина: ова парче е направено од материјал кој не се растегнува. Одговара на наведената величина.",
+      "care_description": "Ова парче треба да се третира хемиски според инструкциите на етикетата.",
+      "tags": [
+        "valentines",
+        "vintage",
+        "панталони",
+        "orange",
+        "портокалова",
+        "URMA",
+        "Pinc Partywear"
+      ],
+      "date": 16612424400,
+      "quantity": 3,
+      "images": [
+        "/images/products/clothes/pants-orange-3.jpg",
+        "/images/products/clothes/pants-orange-2.jpg",
+        "/images/products/clothes/pants-orange-1.jpg"
+      ],
+      "sale": false,
+      "discount": 0,
+      "trending": false
+    },
+    {
+      "id": "6c35f48f-917b-4dc4ag44h34123269",
+      "name": "Pinc јакна",
+      "type": "vintage облека",
+      "category": "палта и јакни",
+      "type_id": "vintage",
+      "category_id": "palta-i-jakni",
+      "price": 3500,
+      "size": "S",
+      "color": "розова",
+      "color_value": "#FFDBDB",
+      "material": "100% Синтетика",
+      "condition": 4,
+      "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+      "size_description": "Совет за величина: ова парче е направено од материјал кој не се растегнува. Одговара на наведената величина.",
+      "care_description": "Ова парче треба да се третира хемиски според инструкциите на етикетата.",
+      "tags": ["vintage", "палта", "Pinc Partywear"],
+      "date": 1660147245000,
+      "quantity": 1,
+      "images": [
+        "/images/products/clothes/jacket-white-4.jpg",
+        "/images/products/clothes/jacket-white-1.jpg",
+        "/images/products/clothes/jacket-white-5.jpg",
+        "/images/products/clothes/jacket-white-6.jpg",
+        "/images/products/clothes/jacket-white-2.jpg",
+        "/images/products/clothes/jacket-white-3.jpg"
+      ],
+      "sale": true,
+      "discount": 20,
+      "trending": false
+    },
+    {
+      "id": "6њаa4gsesgd4rgsedvwegsdfg4РГgeд9",
+      "name": "Сива Чанта",
+      "type": "Аксесоари",
+      "category": "Ташни",
+      "type_id": "tashni",
+      "category_id": "tashni",
+      "price": 4625,
+      "size": "M",
+      "color": "сива",
+      "color_value": "#D9D9D9",
+      "material": "95% памук",
+      "condition": 8,
+      "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+      "size_description": "Совет за величина: ова парче е направено од материјал кој не се растегнува. Одговара на наведената величина.",
+      "care_description": "Ова парче треба да се третира хемиски според инструкциите на етикетата.",
+      "tags": ["Ташна", "Main Days", "бело", "purse"],
+      "date": 13120123350,
+      "quantity": 2,
+      "images": [
+        "/images/products/accessories/purse-white-4.jpg",
+        "/images/products/accessories/purse-white-1.jpg",
+        "/images/products/accessories/purse-white-2.jpg",
+        "/images/products/accessories/purse-white-3.jpg"
+      ],
+      "sale": false,
+      "discount": 0,
+      "trending": true
+    },
+    {
+      "id": "6c35f48f-917b-4dcc-8fe4-3a2512269",
+      "name": "Кратка јакна",
+      "type": "vintage облека",
+      "category": "палта и јакни",
+      "type_id": "vintage",
+      "category_id": "palta-i-jakni",
+      "price": 3300,
+      "size": "L",
+      "color": "розова",
+      "color_value": "#FFDBDB",
+      "material": "100% Синтетика",
+      "condition": 4,
+      "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+      "size_description": "Совет за величина: ова парче е направено од материјал кој не се растегнува. Одговара на наведената величина.",
+      "care_description": "Ова парче треба да се третира хемиски според инструкциите на етикетата.",
+      "tags": ["vintage", "фустани", "Pinc Partywear"],
+      "date": 1660137215000,
+      "quantity": 1,
+      "images": [
+        "/images/products/clothes/jacket-white-5.jpg",
+        "/images/products/clothes/jacket-white-4.jpg",
+        "/images/products/clothes/jacket-white-1.jpg",
+        "/images/products/clothes/jacket-white-6.jpg",
+        "/images/products/clothes/jacket-white-2.jpg",
+        "/images/products/clothes/jacket-white-3.jpg"
+      ],
+      "sale": true,
+      "discount": 10,
+      "trending": false
+    },
+    {
+      "id": "6c35512f5sadf-4134c-841#G#Gasf22dsfgh9",
+      "name": "Црн Долг Фустан",
+      "type": "vintage облека",
+      "category": "Фустани",
+      "type_id": "vintage",
+      "category_id": "fustani",
+      "price": 4300,
+      "size": "S",
+      "color": "црна",
+      "color_value": "#000000",
+      "material": "100% Полиестер",
+      "condition": 10,
+      "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+      "size_description": "Совет за величина: ова парче е направено од материјал кој не се растегнува. Одговара на наведената величина.",
+      "care_description": "Ова парче треба да се третира хемиски според инструкциите на етикетата.",
+      "tags": ["vintage", "Ред", "фустани", "Pinc Partywear"],
+      "date": 1660147275000,
+      "quantity": 4,
+      "images": [
+        "/images/products/clothes/dress-black-3.jpg",
+        "/images/products/clothes/dress-black-1.jpg",
+        "/images/products/clothes/dress-black-2.jpg",
+        "/images/products/clothes/dress-black-4.jpg"
+      ],
+      "sale": true,
+      "discount": 15,
+      "trending": true
+    },
+    {
+      "id": "6c35512f5sadf-4134c-841243FG#fgasf22dsfgh9",
+      "name": "Црн Фустан",
+      "type": "vintage облека",
+      "category": "Фустани",
+      "type_id": "vintage",
+      "category_id": "fustani",
+      "price": 4300,
+      "size": "S",
+      "color": "црна",
+      "color_value": "#000000",
+      "material": "100% Полиестер",
+      "condition": 9,
+      "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+      "size_description": "Совет за величина: ова парче е направено од материјал кој не се растегнува. Одговара на наведената величина.",
+      "care_description": "Ова парче треба да се третира хемиски според инструкциите на етикетата.",
+      "tags": [
+        "vintage",
+        "фѕстани",
+        "Нежно",
+        "Pinc Partywear",
+        "ново",
+        "factory girl"
+      ],
+      "date": 1660147275103,
+      "quantity": 3,
+      "images": [
+        "/images/products/clothes/dress-black-2.jpg",
+        "/images/products/clothes/dress-black-1.jpg",
+        "/images/products/clothes/dress-black-3.jpg",
+        "/images/products/clothes/dress-black-4.jpg"
+      ],
+      "sale": false,
+      "discount": 0,
+      "trending": false
+    },
+    {
+      "id": "6c35512f5sadf-4134serrw3fF3W2dsfgh9",
+      "name": "Sif Долг Фустан",
+      "type": "vintage облека",
+      "category": "Фустани",
+      "type_id": "vintage",
+      "category_id": "fustani",
+      "price": 2300,
+      "size": "M",
+      "color": "сива",
+      "color_value": "#D9D9D9",
+      "material": "100% Полиестер",
+      "condition": 9,
+      "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+      "size_description": "Совет за величина: ова парче е направено од материјал кој не се растегнува. Одговара на наведената величина.",
+      "care_description": "Ова парче треба да се третира хемиски според инструкциите на етикетата.",
+      "tags": [
+        "vintage",
+        "фyстани",
+        "Нежно",
+        "Pinc Partywear",
+        "ново",
+        "factory girl"
+      ],
+      "date": 1660147289102,
+      "quantity": 2,
+      "images": [
+        "/images/products/clothes/dress-black-4.jpg",
+        "/images/products/clothes/dress-black-2.jpg",
+        "/images/products/clothes/dress-black-1.jpg",
+        "/images/products/clothes/dress-black-3.jpg"
+      ],
+      "sale": false,
+      "discount": 0,
+      "trending": true
+    },
+    {
+      "id": "6c355f3zh5h53fFdsfgh9",
+      "name": "Краток Фустан",
+      "type": "vintage облека",
+      "category": "Блузи",
+      "type_id": "vintage",
+      "category_id": "fustani",
+      "price": 2300,
+      "size": "M",
+      "color": "сива",
+      "color_value": "#D9D9D9",
+      "material": "100% Памук",
+      "condition": 9,
+      "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+      "size_description": "Совет за величина: ова парче е направено од материјал кој не се растегнува. Одговара на наведената величина.",
+      "care_description": "Ова парче треба да се третира хемиски според инструкциите на етикетата.",
+      "tags": [
+        "vintage",
+        "фyстани",
+        "Нежно",
+        "Pinc Partywear",
+        "ново",
+        "factory girl"
+      ],
+      "date": 1660124675101,
+      "quantity": 2,
+      "images": [
+        "/images/products/clothes/dress-black-1.jpg",
+        "/images/products/clothes/dress-black-4.jpg",
+        "/images/products/clothes/dress-black-2.jpg",
+        "/images/products/clothes/dress-black-3.jpg"
+      ],
+      "sale": true,
+      "discount": 50,
+      "trending": false
+    },
+    {
+      "id": "6c3fazg4gzd54hz5hdfafa9",
+      "name": "Долги Ракави Блузо",
+      "type": "URMA",
+      "category": "Блузи",
+      "type_id": "vintage",
+      "category_id": "bluzi",
+      "price": 1900,
+      "size": "L",
+      "color": "портокалова",
+      "color_value": "#FBC26C",
+      "material": "100% Памук",
+      "condition": 8,
+      "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+      "size_description": "Совет за величина: ова парче е направено од материјал кој не се растегнува. Одговара на наведената величина.",
+      "care_description": "Ова парче треба да се третира хемиски според инструкциите на етикетата.",
+      "tags": [
+        "vintage",
+        "фyстани",
+        "Нежно",
+        "ново",
+        "Pinc Partywear",
+        "factory girl"
+      ],
+      "date": 1665053513470,
+      "quantity": 2,
+      "images": [
+        "/images/products/clothes/red-shirt-4.jpg",
+        "/images/products/clothes/red-shirt-3.jpg",
+        "/images/products/clothes/red-shirt-2.jpg",
+        "/images/products/clothes/red-shirt-1.jpg",
+        "/images/products/clothes/red-shirt-2.jpg"
+      ],
+      "sale": false,
+      "discount": 0,
+      "trending": false
+    },
+    {
+      "id": "faeffawfgawsevwsavwe4vawse",
+      "name": "Златни менѓиши",
+      "type": "Аксесоари",
+      "category": "Накит",
+      "type_id": "accessories",
+      "category_id": "nakit",
+      "price": 3500,
+      "size": "",
+      "color": "црвена",
+      "color_value": "#FF835E",
+      "material": "22% Злато",
+      "condition": 5,
+      "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+      "size_description": "Совет за величина: ова парче е направено од материјал кој не се растегнува. Одговара на наведената величина.",
+      "care_description": "Ова парче треба да се третира хемиски според инструкциите на етикетата.",
+      "tags": ["накит", "earrings", "фyстани", "Нежно", "factory girl"],
+      "date": 162401727350,
+      "quantity": 4,
+      "images": [
+        "/images/products/accessories/earrings-god-1.jpg",
+        "/images/products/accessories/earrings-god-2.jpg",
+        "/images/products/accessories/earrings-god-3.jpg"
+      ],
+      "sale": false,
+      "discount": 0,
+      "trending": true
+    },
+    {
+      "id": "6c35sfa512f3г2г2њгфв3њsfgh9",
+      "name": "Црвена Блуза",
+      "type": "vintage облека",
+      "category": "Фустани",
+      "type_id": "vintage",
+      "category_id": "bluzi",
+      "price": 3300,
+      "size": "S",
+      "color": "црвена",
+      "color_value": "#FF835E",
+      "material": "100% Памук",
+      "condition": 9,
+      "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+      "size_description": "Совет за величина: ова парче е направено од материјал кој не се растегнува. Одговара на наведената величина.",
+      "care_description": "Ова парче треба да се третира хемиски според инструкциите на етикетата.",
+      "tags": ["vintage", "фyстани", "Нежно", "factory girl"],
+      "date": 16603351273100,
+      "quantity": 3,
+      "images": [
+        "/images/products/clothes/red-shirt-1.jpg",
+        "/images/products/clothes/red-shirt-2.jpg",
+        "/images/products/clothes/red-shirt-3.jpg",
+        "/images/products/clothes/red-shirt-4.jpg",
+        "/images/products/clothes/red-shirt-2.jpg"
+      ],
+      "sale": false,
+      "discount": 0,
+      "trending": true
+    },
+    {
+      "id": "њГСвЕГВЗ4СЕВСЕДРЕВР5Д4РДГ",
+      "name": "Сребрено Бело Ланче",
+      "type": "Аксесоари",
+      "category": "Накит",
+      "type_id": "accessories",
+      "category_id": "nakit",
+      "price": 4200,
+      "size": "",
+      "color": "бела",
+      "color_value": "#FFFFFF",
+      "material": "91% Злато",
+      "condition": 9,
+      "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+      "size_description": "Совет за величина: ова парче е направено од материјал кој не се растегнува. Одговара на наведената величина.",
+      "care_description": "Ова парче треба да се третира хемиски според инструкциите на етикетата.",
+      "tags": ["накит", "ланче", "Нежно", "factory girl", "Pinc Partywear"],
+      "date": 13240125350,
+      "quantity": 2,
+      "images": [
+        "/images/products/accessories/necklace-white-2.jpg",
+        "/images/products/accessories/necklace-white-1.jpg",
+        "/images/products/accessories/necklace-white-3.jpg"
+      ],
+      "sale": false,
+      "discount": 0,
+      "trending": true
+    },
+    {
+      "id": "6њаawасге4ЕРББС4ЗСВДРГgeд9",
+      "name": "Green Ташна Блу",
+      "type": "Аксесоари",
+      "category": "Ташни",
+      "type_id": "tashni",
+      "category_id": "tashni",
+      "price": 625,
+      "size": "L",
+      "color": "сина",
+      "color_value": "#75D7F0",
+      "material": "91% памук",
+      "condition": 10,
+      "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+      "size_description": "Совет за величина: ова парче е направено од материјал кој не се растегнува. Одговара на наведената величина.",
+      "care_description": "Ова парче треба да се третира хемиски според инструкциите на етикетата.",
+      "tags": ["Ташна", "URMA", "Main Days", "плава", "Beyond Green"],
+      "date": 1312015350,
+      "quantity": 3,
+      "images": [
+        "/images/products/accessories/bag-blue-3.jpg",
+        "/images/products/accessories/bag-blue-2.jpg",
+        "/images/products/accessories/bag-blue-1.jpg"
+      ],
+      "sale": false,
+      "discount": 0,
+      "trending": false
+    },
+    {
+      "id": "6њаa4gsegsebr4sxbse54РГgeд9",
+      "name": "Purse White",
+      "type": "Аксесоари",
+      "category": "Ташни",
+      "type_id": "tashni",
+      "category_id": "tashni",
+      "price": 2625,
+      "size": "M",
+      "color": "бела",
+      "color_value": "#FFFFFF",
+      "material": "95% памук",
+      "condition": 9,
+      "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+      "size_description": "Совет за величина: ова парче е направено од материјал кој не се растегнува. Одговара на наведената величина.",
+      "care_description": "Ова парче треба да се третира хемиски според инструкциите на етикетата.",
+      "tags": ["Ташна", "Main Days", "бело", "purse"],
+      "date": 13120123350,
+      "quantity": 2,
+      "images": [
+        "/images/products/accessories/purse-white-1.jpg",
+        "/images/products/accessories/purse-white-2.jpg",
+        "/images/products/accessories/purse-white-3.jpg",
+        "/images/products/accessories/purse-white-4.jpg"
+      ],
+      "sale": false,
+      "discount": 0,
+      "trending": true
+    },
+    {
+      "id": "aw4eav4awervawerfwfsecv3dv69",
+      "name": "Долги Панталони",
+      "type": "vintage облека",
+      "category": "Панталони",
+      "type_id": "vintage",
+      "category_id": "pantaloni",
+      "price": 2800,
+      "size": "S",
+      "color": "зелена",
+      "color_value": "#B9E5A4",
+      "material": "100% Памук",
+      "condition": 8,
+      "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+      "size_description": "Совет за величина: ова парче е направено од материјал кој не се растегнува. Одговара на наведената величина.",
+      "care_description": "Ова парче треба да се третира хемиски според инструкциите на етикетата.",
+      "tags": [
+        "vintage",
+        "панталони",
+        "зелена",
+        "Green",
+        "URMA",
+        "Pinc Partywear"
+      ],
+      "date": 166011243400,
+      "quantity": 3,
+      "images": [
+        "/images/products/clothes/pants-green-3.jpg",
+        "/images/products/clothes/pants-green-2.jpg",
+        "/images/products/clothes/pants-green-1.jpg",
+        "/images/products/clothes/pants-green-4.jpg",
+        "/images/products/clothes/pants-green-5.jpg",
+        "/images/products/clothes/pants-green-6.jpg"
+      ],
+      "sale": false,
+      "discount": 0,
+      "trending": false
+    },
+    {
+      "id": "aw4vwaefawe4rsvrvesadvr69",
+      "name": "Fit Панталони",
+      "type": "Pinc Partywear",
+      "category": "Панталони",
+      "type_id": "vintage",
+      "category_id": "pantaloni",
+      "price": 2340,
+      "size": "S",
+      "color": "портокалова",
+      "color_value": "#FBC26C",
+      "material": "100% Памук",
+      "condition": 8,
+      "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+      "size_description": "Совет за величина: ова парче е направено од материјал кој не се растегнува. Одговара на наведената величина.",
+      "care_description": "Ова парче треба да се третира хемиски според инструкциите на етикетата.",
+      "tags": [
+        "vintage",
+        "панталони",
+        "orange",
+        "портокалова",
+        "URMA",
+        "Pinc Partywear"
+      ],
+      "date": 166121224400,
+      "quantity": 4,
+      "images": [
+        "/images/products/clothes/pants-orange-1.jpg",
+        "/images/products/clothes/pants-orange-2.jpg",
+        "/images/products/clothes/pants-orange-3.jpg"
+      ],
+      "sale": false,
+      "discount": 0,
+      "trending": true
+    },
+    {
+      "id": "SVesrvsdvse$RVsed4rvesdv",
+      "name": "Долги Ракави Блузо",
+      "type": "Нежно",
+      "category": "Блузи",
+      "type_id": "vintage",
+      "category_id": "bluzi",
+      "price": 3900,
+      "size": "XS",
+      "color": "розова",
+      "color_value": "#FFDBDB",
+      "material": "100% Синтетика",
+      "condition": 7,
+      "description": "Ова е vintage парче направено од материјал со текстура, се закопчува со патент.",
+      "size_description": "Совет за величина: ова парче е направено од материјал кој не се растегнува. Одговара на наведената величина.",
+      "care_description": "Ова парче треба да се третира хемиски според инструкциите на етикетата.",
+      "tags": [
+        "valentines",
+        "vintage",
+        "фyстани",
+        "Нежно",
+        "ново",
+        "розава",
+        "Ред"
+      ],
+      "date": 1665053524210,
+      "quantity": 2,
+      "images": [
+        "/images/products/clothes/rose-shirt-1.jpg",
+        "/images/products/clothes/rose-shirt-2.jpg",
+        "/images/products/clothes/rose-shirt-3.jpg",
+        "/images/products/clothes/rose-shirt-4.jpg",
+        "/images/products/clothes/rose-shirt-2.jpg",
+        "/images/products/clothes/rose-shirt-1.jpg"
+      ],
+      "sale": false,
+      "discount": 0,
+      "trending": true
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+@use "../../abstracts/mixins" as mix;
+@use "../../abstracts/variables" as var;
+@use "sass:math";
+
+.gift-cards-content {
+  h2 {
+    text-align: center;
+  }
+}
+.special-gift-cards {
+  display: flex;
+  flex-direction: column;
+  @include mix.tablet-styles-up {
+    flex-direction: row;
+    gap: 10px;
+  }
+  .special-gift-card {
+    height: 120vw !important;
+
+    transition: ease-in-out 0.3s;
+    @include mix.tablet-styles-up {
+      height: 40vw !important;
+    }
+  }
+  li {
+    width: 100%;
+    cursor: pointer;
+    transition: ease-in-out 0.3s;
+    &:hover {
+      transform: scale(101.5%);
+      .content-image {
+        opacity: 0.9;
+        
+      }
+    }
+    position: relative;
+  }
+  .gift-card-ribbon {
+    span {
+      padding: 0 10px;
+    }
+    font-family: var.$font-family-cormorant;
+    font-size: var.$font-size-heading;
+    padding: 0 10px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    display: flex;
+    height: 30px;
+    background: var.$gold-gradient;
+    background-color: #fff9e0;
+  }
+  li {
+    &:nth-child(3n+1) {
+      .gift-card-ribbon {
+        top: 15px;
+      }
+    }
+    &:nth-child(2n) {
+        .gift-card-ribbon {
+          bottom: 35px;
+          flex-direction: row-reverse;
+        }
+      }
+    &:nth-child(3n) {
+        .gift-card-ribbon {
+          bottom: 35px;
+        }
+      }
+  }
+
+}

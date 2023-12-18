@@ -1,0 +1,163 @@
+@use "../../abstracts/mixins" as mix;
+@use "../../abstracts/variables" as var;
+@use "sass:math";
+
+//PAGE//GENERAL//STYLE//
+.info {
+  .content {
+    display: flex;
+    flex-direction: column;
+    @include mix.tablet-styles-up {
+      flex-direction: row;
+      gap: 50px;
+      width: 80%;
+      margin-right: auto;
+      margin-left: auto;
+    }
+    .content-text {
+      @include mix.tablet-styles-up {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+    }
+    .content-image {
+      margin-bottom: 20px;
+      height: 350px;
+      @include mix.mobile-l-styles-up {
+        height: 500px;
+      }
+      @include mix.tablet-styles-up {
+        min-height: 600px;
+      }
+
+      width: 100%;
+      background-size: cover;
+      background-position: center 25%;
+      background-repeat: no-repeat;
+      border-radius: 8px;
+      opacity: 0.8;
+      box-shadow: 2px 3px 7px 1px rgb(0 0 0 / 32%);
+      overflow: hidden;
+    }
+    .content-w-50-image{
+      @include mix.tablet-styles-up {
+        width: 50% !important;
+      }
+    }
+    img {
+      object-fit: cover;
+      height: 100%;
+      width: 100%;
+    }
+    h1 {
+      margin: 20px 0;
+    }
+  }
+}
+.gift-cards-content {
+  .content {
+    display: block;
+    @include mix.tablet-styles-up {
+      flex-direction: row;
+      gap: 50px;
+      width: 100%;
+      margin-right: auto;
+      margin-left: auto;
+    }
+  }
+  .content-image{
+    width: unset !important;
+    
+  }
+  .content-text {
+    @include mix.tablet-styles-up {
+      width: 100% !important;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .special-gift-cards {
+
+        flex-direction: column;
+        @include mix.mobile-l-styles-up {
+          height: 500px;
+        }
+        @include mix.tablet-styles-up {
+          height: 600px;
+          width: 50% !important;
+        }
+      
+    }
+  }
+}
+
+//CONTACT//PAGE//
+.contact {
+  .address {
+    font-family: var.$font-family-century;
+  }
+  .phone-number {
+    h2 {
+      margin: 0;
+    }
+  }
+  .content-text {
+    text-align: center;
+    & > * {
+      margin-bottom: 30px;
+    }
+  }
+  .working-hours {
+    p {
+      font-size: var.$font-size-heading;
+    }
+  }
+}
+//FAQ//PAGE//
+.faq {
+  .faq-questions {
+    text-align: left;
+    border: 1px solid var.$border-color-primary;
+    border-radius: 10px;
+    box-shadow: 0px 0px 1.38462px 0px var.$shadowbox-color-primary;
+    overflow: hidden;
+    @include mix.tablet-styles-up {
+      width: 70%;
+      margin-right: auto;
+      margin-left: auto;
+    }
+    ul {
+      li {
+        padding: 0 25px;
+        .inner-content-text {
+          padding: 25px 0;
+          border-bottom: 1px solid var.$border-color-primary;
+        }
+        &:last-child {
+          .inner-content-text {
+            border-bottom: none;
+          }
+          padding-bottom: 0;
+        }
+        &:nth-child(2n) {
+          background-color: var.$light-ribbon-pink;
+        }
+      }
+    }
+
+    .question-title {
+      & > * {
+        margin-left: 2px;
+      }
+      display: flex;
+      span {
+        display: block;
+      }
+      color: var.$fancy-olive;
+    }
+  }
+}

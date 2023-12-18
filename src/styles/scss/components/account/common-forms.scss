@@ -1,0 +1,314 @@
+@use "../../abstracts/mixins" as mix;
+@use "../../abstracts/variables" as var;
+@use "sass:math";
+
+.account-container {
+  font-weight: var.$font-weight-bold;
+  padding-top: 110px;
+  padding-bottom: 50px;
+  font-family: var.$font-family-inter;
+  @include mix.tablet-styles-down {
+    background-color: var.$light-ribbon-pink;
+    min-height: 100vh;
+  }
+
+  .account-inner-container {
+    * > div {
+      margin-bottom: 15px;
+    }
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    min-height: 70vh;
+    @include mix.tablet-styles-up {
+      width: 40% !important;
+      min-height: 50vh;
+    }
+    @include mix.laptop-m-styles-up {
+      width: 350px !important;
+    }
+  }
+  //ACCOUNT//HEADER//
+  .account-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    margin-bottom: 45px;
+    width: 100%;
+    img {
+      object-fit: contain;
+    }
+  }
+  //BUTTON//INPUTS//
+  button {
+    height: 45px !important;
+    border-radius: 13px;
+    font-size: var.$font-size-base;
+    font-family: var.$font-family-inter;
+    color: var.$text-color-quartery;
+    font-weight: var.$font-weight-bold;
+  }
+  .button-alt-register {
+    width: 100%;
+    background-color: var.$background-color-base;
+    border: 4px solid var.$dark-ribbon-pink;
+    color: var.$text-color-primary;
+    font-size: var.$font-size-small;
+    svg {
+      height: 23px;
+      width: 23px;
+      margin-right: 5px;
+    }
+    &:hover {
+      background-color: var.$dark-ribbon-pink;
+    }
+  }
+  .button-small-account {
+    font-size: var.$font-size-small;
+    font-weight: var.$font-weight-bold;
+    span {
+      margin-left: 5px;
+    }
+    &:hover {
+      span {
+        cursor: pointer;
+        color: var.$fancy-olive;
+      }
+    }
+  }
+  .toggle-password-visibility {
+    cursor: pointer;
+    border: none;
+    color: var.$text-color-secondary;
+    position: absolute;
+    top: -15px;
+    right: 4px;
+    svg {
+      height: 25px;
+      width: 25px;
+    }
+  }
+  .forgot-password {
+    color: var.$pinc-green;
+    text-decoration: underline;
+  }
+  label {
+    font-size: var.$font-size-small;
+  }
+  input {
+    background-color: var.$light-ribbon-pink;
+    width: 100%;
+    height: 40px !important;
+    border-radius: 8px;
+    color: var.$text-color-secondary;
+    padding: 0px 8px;
+    position: relative;
+    border: 1px solid var.$border-color-secondary;
+  }
+  .field {
+    position: relative;
+  }
+  .separator {
+    margin: 20px !important;
+    text-align: center;
+  }
+  .error-message {
+    color: var.$text-color-teriary;
+    font-size: var.$font-size-small;
+    margin-bottom: 15px;
+    line-height: 0.5 !important;
+  }
+  .cancel-button {
+    font-size: var.$font-size-small;
+    color: var.$text-color-primary;
+    cursor: pointer;
+  }
+  .button-account-submit {
+    width: 100%;
+    background-color: var.$background-color-quaternary !important;
+    &:hover {
+      background-color: var.$background-color-secondary !important;
+    }
+  }
+  position: relative;
+  .account-cr {
+    font-size: var.$font-size-smallest;
+    text-align: center;
+    //margin-top: 100px;
+    @include mix.tablet-styles-up {
+      display: none;
+    }
+  }
+  .checkbox-form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px !important;
+    label {
+      font-size: var.$font-size-smallest !important;
+      position: relative;
+      padding-left: 25px; 
+      cursor: pointer;
+      display: inline-block;
+    }
+
+    .checkbox-input {
+      width: 15px;
+      height: 15px;
+      opacity: 0;
+      cursor: pointer;
+      position: absolute;
+    }
+
+    .checkbox-input + label {
+      &:before {
+        content: "";
+        position: absolute;
+        left: 0px;
+        top: -3px;
+        width: 15px;
+        height: 15px;
+        border: 1px solid #000; 
+        border-radius: 10px;
+      }
+    }
+
+    .checkbox-input:checked + label:before {
+      content: "✔";
+      font-size: 12px;
+      line-height: 15px;
+      text-align: center;
+      color: var.$text-color-primary;
+    }
+  }
+  .privacy-policy,
+  a {
+    font-size: var.$font-size-smallest;
+    margin-bottom: 20px;
+    text-align: center;
+    a {
+      text-decoration: underline;
+      font-weight: var.$font-weight-bold;
+    }
+  }
+  .biograpy-field {
+    background-color: var.$light-ribbon-pink;
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 220px;
+    min-height: 40px;
+    padding: 8px;
+    border: 1px solid var.$border-color-secondary;
+    border-radius: 8px;
+    padding-bottom: 16px;
+  }
+  .char-counter {
+    position: absolute;
+    bottom: 9px;
+    left: 3px;
+    font-size: 10px;
+    background-color: var.$light-ribbon-pink;
+    border-radius: 5px;
+  }
+  .over-limit {
+    color: var.$text-color-teriary;
+  }
+  .hide-counter {
+    display: none;
+  }
+  .profile-picture-input {
+    .profile-picture-container {
+      height: 150px;
+      width: 150px;
+      border-radius: 50%;
+      margin-right: auto;
+      margin-left: auto;
+      overflow: hidden;
+      .profile-picture {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    .pf-button-container {
+      margin-bottom: 0;
+      height: 40px;
+      .pf-button {
+        border-radius: 10px;
+        width: 100px !important;
+        font-size: var.$font-size-small;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        background-color: var.$border-color-primary;
+      }
+    }
+  }
+  .profile-image-input-container {
+    position: relative;
+  }
+  .skip-option{
+    width: 100%;
+    font-size: var.$font-size-small;
+    text-decoration: underline;
+    text-align: center;
+  }
+  .log-out-button{
+    background-color: var.$text-color-secondary !important;
+  }
+  .change-password-form{
+    width: 100%;
+  }
+  .change-password-button{
+    margin: 0 !important;
+    height: 20px !important;
+    border: none;
+    text-decoration: underline;
+    color: var.$pinc-green;
+    cursor: pointer;
+    font-size: var.$font-size-small;
+  }
+  .buttons-50w{
+      display: flex;
+      flex-direction: row;
+      gap: 8px;
+  }
+}
+
+.centered {
+  text-align: center;
+}
+
+
+//CUSTOM//CHECKBOX//
+
+.custom-checkbox-form {
+  font-family: var.$font-family-base;
+  color: var.$text-color-secondary;
+  cursor: pointer;
+  position: relative;
+  margin-left: 35px;
+  &::after {
+    content: "";
+    position: absolute;
+    height: 18px;
+    width: 18px;
+    left: -33px;
+    top: 4px;
+    border: 1px solid var.$border-color-secondary;
+    border-radius: 2px;
+  }
+
+
+  .dot {
+    position: absolute;
+    left: -23px;
+    top: 14px;
+    transform: translate(-50%, -50%);
+    height: 12px;
+    width: 12px;
+     background-color: var.$border-color-primary;
+    border-radius: 2px;
+    display: inline-block;
+  }
+}

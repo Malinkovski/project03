@@ -1,0 +1,214 @@
+@use "../abstracts/variables" as var;
+@use "../abstracts/mixins" as mix;
+@use "sass:math";
+
+//MODAL STYLE//
+//position: relative for parent
+.message-container-modal {
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  background-color: rgba(80, 80, 80, 0.2);
+  box-shadow: 0px 0px 20px 20px #3939392d;
+  border-radius: 2px;
+  z-index: 2 !important;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    border-radius: 2px;
+    z-index: 0;
+  }
+  .message-modal {
+    background-color: var.$dark-ribbon-pink;
+    max-width: 600px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 70% !important;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 6px;
+    border: 1px solid var.$border-color-primary;
+    box-shadow: 0px 0px 5.4px 0px var.$shadowbox-color-primary;
+    .button-go-to {
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      i {
+        margin-left: 15px;
+      }
+    }
+  }
+}
+.password-reset-modal{
+  h4{
+    font-size: var.$font-size-base;
+    font-family: var.$font-family-inter !important;
+  }
+}
+
+.modal-header {
+  text-align: center;
+}
+
+.modal-container {
+  .inner-modal-container {
+    height: 100vh;
+    padding: 35px;
+  }
+  overflow: auto;
+  background-color: var.$background-color-base;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  @include mix.tablet-styles-down {
+    z-index: 15 !important;
+  }
+  @include mix.mobile-l-styles-up {
+    .inner-modal-container {
+      width: 80%;
+      margin-right: auto;
+      margin-left: auto;
+    }
+  }
+  @include mix.tablet-styles-up {
+    z-index: 3;
+    .inner-modal-container {
+      width: 50%;
+      @include mix.laptop-l-styles-up {
+        width: 35%;
+      }
+    }
+  }
+  .close-modal-button {
+    cursor: pointer;
+    position: absolute;
+    right: 35px;
+    top: 15px;
+
+  }
+}
+
+.success-modal {
+  background-color: var.$light-ribbon-pink !important;
+  padding: 25px !important;
+  .button-gold {
+    width: 70%;
+    min-width: 150px !important;
+  }
+
+}
+
+
+
+//CUSTOM MODAL STYLE//
+
+.custom-modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+  z-index: 15;
+  padding: 5px;
+}
+.inner-modal-container {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  @include  mix.tablet-styles-up {
+    width: 500px;
+  }
+}
+
+.modal-header {
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.close-modal-button {
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.custom-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+}
+
+.purchase-modal{
+  height: 100%;
+  overflow: scroll;
+  padding: 50px;
+  .error-message{
+    position: relative;
+  }
+}
+
+.password-modal{
+  position: fixed !important;
+}
+
+//MODAL ANIMATIONS//
+
+
+.modal-animation{
+  animation: fadeIn 0.4s ease-in-out forwards;
+  display: none;
+
+}
+.modal-animation.show-modal {
+  display: flex;
+}
+
+.modal-animation.hide-modal {
+  animation: fadeOut 0.4s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
