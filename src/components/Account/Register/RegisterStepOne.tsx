@@ -1,7 +1,7 @@
 import React from "react";
 import ButtonAltRegister from "../../Buttons/Account/ButtonAltRegister";
-import GoogleSvg from "/public/images/Icons/google.svg";
-import FacebookSvg from "/public/images/Icons/facebook.svg";
+import GoogleSvg from "/public/images/icons/google.svg";
+import FacebookSvg from "/public/images/icons/facebook.svg";
 import Separator from "../Misc/Separator";
 import ButtonSmallAccount from "../../Buttons/Account/ButtonSmallAccount";
 
