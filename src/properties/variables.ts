@@ -1,14 +1,14 @@
-export const API_BASE_URL: string = "http://localhost:4000";
-export const PRODUCTS_API: string = "http://localhost:4000/products";
-export const LOCAL_BRANDS_API: string = "http://localhost:4000/local_brands";
-export const ACCESSORIES_API: string = "http://localhost:4000/accessories";
-export const VINTAGE_API: string = "http://localhost:4000/vintage";
-export const CONTACT_API: string = "http://localhost:4000/contact_page";
-export const ABOUT_API: string = "http://localhost:4000/about_page";
-export const FAQ_API: string = "http://localhost:4000/faq";
-export const GIFTCARD_API: string = "http://localhost:4000/giftcard_page";
-export const ADS_API: string = "http://localhost:4000/ads";
-export const FILTERS_API: string = "http://localhost:4000/filters";
+export const API_BASE_URL: string = "https://project03-igralishte-api.onrender.com";
+export const PRODUCTS_API: string = "https://project03-igralishte-api.onrender.com/products";
+export const LOCAL_BRANDS_API: string = "https://project03-igralishte-api.onrender.com/local_brands";
+export const ACCESSORIES_API: string = "https://project03-igralishte-api.onrender.com/accessories";
+export const VINTAGE_API: string = "https://project03-igralishte-api.onrender.com/vintage";
+export const CONTACT_API: string = "https://project03-igralishte-api.onrender.com/contact_page";
+export const ABOUT_API: string = "https://project03-igralishte-api.onrender.com/about_page";
+export const FAQ_API: string = "https://project03-igralishte-api.onrender.com/faq";
+export const GIFTCARD_API: string = "https://project03-igralishte-api.onrender.com/giftcard_page";
+export const ADS_API: string = "https://project03-igralishte-api.onrender.com/ads";
+export const FILTERS_API: string = "https://project03-igralishte-api.onrender.com/filters";
 
 export const LIMIT_ITEMS_PER_BIG_PAGINATION = 12;
 export const LIMIT_ITEMS_PER_SMALL_PAGINATION = 8;
