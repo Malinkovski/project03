@@ -1,34 +1,92 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# BrainsterProject_IlijaMalinkovskiFE11
 
-## Getting Started
+## Name
 
-First, run the development server:
+PROJECT 3 - README 
 
-```bash
-npm run dev
-# or
-yarn dev
+## Add your files
+
+- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
+- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
+
+```
+cd existing_repo
+git remote add origin https://git.brainster.co/Ilija.Malinkovski-FE11/brainsterchallenges_ilijamalinkovskife11.git
+git branch -M main
+git push -uf origin main
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+```
+After installing the dependencies, run:
+npm run server
+npm run dev
+npm run watch:scss
+Resources
+- http://localhost:4000";
+- http://localhost:4000/products";
+- http://localhost:4000/local_brands";
+- http://localhost:4000/accessories";
+- http://localhost:4000/vintage";
+- http://localhost:4000/contact_page";
+- http://localhost:4000/about_page";
+- http://localhost:4000/faq";
+- http://localhost:4000/giftcard_page"
+- http://localhost:4000/ads";
+- http://localhost:4000/filters";
+```
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Integrate with your tools
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+- [ ] [Set up project integrations](https://git.brainster.co/Ilija.Malinkovski-FE11/brainsterchallenges_ilijamalinkovskife11/-/settings/integrations)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Test and Deploy
 
-## Learn More
+Use the built-in continuous integration in GitLab.
 
-To learn more about Next.js, take a look at the following resources:
+- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
+- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing(SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
+- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
+- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/) 
+- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html) 
+ 
+*** 
+ 
+## Description 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Igralishe E-commerce App project
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Igralishe is Next.js and TypeScript-powered e-commerce app for a clothing store in Skopje. Featuring dynamic routes, custom hooks, contexts, and a blend of static, server, and client-side rendering. Data is stored in db.json and local storage, accessed through a mockup backend server JSON server. The app integrates various NPM packages for functionality.
+ 
+## Key features 
 
-## Deploy on Vercel
+1.  Built with Next.js 14 with TypeScript
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2.  Dynamic Page Routes
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+3.  Data Storage: The app utilizes db.json and local storage for backend local data management,requiring enabled settings for localStorage, sessionStorage and Cookies. 
+This ensures the ability to remember user login sessions and efficiently manage the cart and favorites."
+
+4.  Local JSON Server: A lightweight back-end for mocking up store data and handling data       requests.
+
+5.  Rendering Techniques: Integrates static site generation, server-side rendering, and client-side rendering.
+
+6.  Filtering: Implements URL query-based filtering with server-side rendering for a personalized shopping experience.
+
+7.  Styling: Sass for styling the mobile and desktop layout.
+Responsive for both Mobile and Desktop
+
+8.  NPM Packages Integration: Leverages various NPM packages to enhance functionality and streamline development.  
+
+    NPM Packages used: 
+    - *json server*: back-end mockup
+    - *formik + Yup*: validation and forms
+    - *js-cookies*: mannaging extended log in sessiosn
+    - *react-paginate*: page like pagination
+    - *react-slick*: carousels and product image previews
+    - *uuid*: generating unique IDs for new members
+
+
+ 
+## Project status 
+
+Finished 17.12.2023. 
