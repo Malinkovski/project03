@@ -80,7 +80,4 @@ Responsive for both Mobile and Desktop
     - *uuid*: generating unique IDs for new members
 
 
- 
-## Project status 
-
 Finished 17.12.2023. 
